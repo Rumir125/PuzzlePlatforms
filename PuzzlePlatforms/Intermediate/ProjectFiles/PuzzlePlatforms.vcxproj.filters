@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PuzzlePlatforms.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{52696454-EAA4-43DB-8F97-1F33410CB089}</UniqueIdentifier>
+      <UniqueIdentifier>{0651826C-0541-41CB-BD1F-35AC9EB821DE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PuzzlePlatforms.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{EC05F79E-6A6E-4E6D-B4C8-4B4DC06A5E54}</UniqueIdentifier>
+      <UniqueIdentifier>{0D98F9AC-076D-43FB-81C3-D70490A23803}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PuzzlePlatforms">
-      <UniqueIdentifier>{5B565679-8330-4F71-A65F-92B18A3D6BD2}</UniqueIdentifier>
+      <UniqueIdentifier>{E5D35D9E-B16E-4691-8034-BCA9D1D0844A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PuzzlePlatforms\MovingPlatform.cpp">
       <Filter>Source\PuzzlePlatforms</Filter>

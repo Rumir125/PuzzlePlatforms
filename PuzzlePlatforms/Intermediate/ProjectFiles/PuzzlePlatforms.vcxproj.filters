@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PuzzlePlatforms.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{112D2358-F182-47AA-B013-30648F64AE0D}</UniqueIdentifier>
+      <UniqueIdentifier>{52696454-EAA4-43DB-8F97-1F33410CB089}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PuzzlePlatforms.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3089ECAF-82BB-4A3B-8DAC-E1DED35458FE}</UniqueIdentifier>
+      <UniqueIdentifier>{EC05F79E-6A6E-4E6D-B4C8-4B4DC06A5E54}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,12 +30,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PuzzlePlatforms">
-      <UniqueIdentifier>{860C63DF-64BF-4B53-ABC2-58DB80264EA6}</UniqueIdentifier>
+      <UniqueIdentifier>{5B565679-8330-4F71-A65F-92B18A3D6BD2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PuzzlePlatforms\MovingPlatform.cpp">
       <Filter>Source\PuzzlePlatforms</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PuzzlePlatforms\MovingPlatform.h">
+      <Filter>Source\PuzzlePlatforms</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\PlatformTrigger.cpp">
+      <Filter>Source\PuzzlePlatforms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\PlatformTrigger.h">
       <Filter>Source\PuzzlePlatforms</Filter>
     </ClInclude>
     <None Include="..\..\Source\PuzzlePlatforms\PuzzlePlatforms.Build.cs">
@@ -53,27 +59,17 @@
     <ClInclude Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformsCharacter.h">
       <Filter>Source\PuzzlePlatforms</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformsGameInstance.cpp">
+      <Filter>Source\PuzzlePlatforms</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformsGameInstance.h">
+      <Filter>Source\PuzzlePlatforms</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformsGameMode.cpp">
       <Filter>Source\PuzzlePlatforms</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformsGameMode.h">
       <Filter>Source\PuzzlePlatforms</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\PuzzlePlatforms\PlatformTrigger.h">
-      <Filter>Source\PuzzlePlatforms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformsGameInstance.h">
-      <Filter>Source\PuzzlePlatforms</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\PuzzlePlatforms\PlatformTrigger.cpp">
-      <Filter>Source\PuzzlePlatforms</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformsGameInstance.cpp">
-      <Filter>Source\PuzzlePlatforms</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

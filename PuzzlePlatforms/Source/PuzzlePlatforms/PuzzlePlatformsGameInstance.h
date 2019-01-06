@@ -14,18 +14,18 @@ class PUZZLEPLATFORMS_API UPuzzlePlatformsGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
 
-	UPuzzlePlatformsGameInstance(const FObjectInitializer &ObjectInitializer);
+		UPuzzlePlatformsGameInstance(const FObjectInitializer &ObjectInitializer);
 
-	virtual void Init();
-	UFUNCTION(Exec)
-	void LoadMenu();
+		virtual void Init();
+		UFUNCTION(Exec)
+		void LoadMenu();
 
-	UFUNCTION(Exec)
-	void Host();
-	UFUNCTION(Exec)
-	void Join(const FString& Address);
+		UFUNCTION(Exec)
+		void Host();
+		UFUNCTION(Exec)
+		void Join(const FString& Address);
 
 
 private:
-	TSubclassOf<class UUserWidget> MenuClass;
+		TSubclassOf<class UUserWidget> MenuClass;
 };

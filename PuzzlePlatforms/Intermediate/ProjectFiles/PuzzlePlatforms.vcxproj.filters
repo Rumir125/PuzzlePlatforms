@@ -72,4 +72,19 @@
       <Filter>Source\PuzzlePlatforms</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\PuzzlePlatforms\MenuSystem">
+      <UniqueIdentifier>{065668a7-10ff-4cb4-9b7b-27977da8a168}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\MainMenu.h">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\MainMenu.cpp">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

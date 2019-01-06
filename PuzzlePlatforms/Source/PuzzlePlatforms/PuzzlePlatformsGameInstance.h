@@ -17,11 +17,14 @@ class PUZZLEPLATFORMS_API UPuzzlePlatformsGameInstance : public UGameInstance
 	UPuzzlePlatformsGameInstance(const FObjectInitializer &ObjectInitializer);
 
 	virtual void Init();
+	UFUNCTION(Exec)
+	void LoadMenu();
 
 	UFUNCTION(Exec)
 	void Host();
 	UFUNCTION(Exec)
 	void Join(const FString& Address);
+
 
 private:
 	TSubclassOf<class UUserWidget> MenuClass;

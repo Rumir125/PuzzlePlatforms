@@ -29,4 +29,6 @@ class PUZZLEPLATFORMS_API UPuzzlePlatformsGameInstance : public UGameInstance, p
 
 private:
 		TSubclassOf<class UUserWidget> MenuClass;
+
+		class UMainMenu* Menu;
 };

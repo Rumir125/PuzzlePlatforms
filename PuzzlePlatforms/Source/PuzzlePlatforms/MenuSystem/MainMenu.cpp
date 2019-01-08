@@ -3,19 +3,22 @@
 #include "MainMenu.h"
 #include "Components/Button.h"
 #include"Components/WidgetSwitcher.h"
+#include "Components/EditableTextBox.h"
 
 bool UMainMenu::Initialize() 
 {
 	bool Success = Super::Initialize();
 	if (!Success)return false;
 
-	// TODO: Setup
+	// Setup
 	if (ensure(HostButton == nullptr))return false;
 	HostButton->OnClicked.AddDynamic(this, &UMainMenu::HostServer);
 	if (ensure(JoinButton == nullptr))return false;
 	JoinButton->OnClicked.AddDynamic(this, &UMainMenu::OpenJoinMenu);
 	if (ensure(CancelJoinMenuButton == nullptr))return false;
 	CancelJoinMenuButton->OnClicked.AddDynamic(this, &UMainMenu::OpenMainMenu);
+	if (ensure(ConfirmJoinMenu == nullptr))return false;
+	ConfirmJoinMenu->OnClicked.AddDynamic(this, &UMainMenu::JoinServer);
 	return true;
 }
 void UMainMenu::SetMenuInterface(IMenuInterface* MenuInterface)
@@ -58,6 +61,17 @@ void UMainMenu::HostServer()
 		UE_LOG(LogTemp, Warning, TEXT("Host a server, please!"));
 	}
 	
+}
+
+void UMainMenu::JoinServer()
+{
+	if (MenuInterface != nullptr)
+	{
+		const FString &Address = IPAddressField->Text.ToString();
+		if (ensure(IPAddressField == nullptr)) return;
+		MenuInterface->Join(Address);
+		UE_LOG(LogTemp, Warning, TEXT("Join a server, please!"));
+	}
 }
 
 void UMainMenu::OpenJoinMenu()

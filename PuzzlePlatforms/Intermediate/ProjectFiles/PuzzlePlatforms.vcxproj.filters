@@ -84,12 +84,24 @@
     <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuInterface.h">
       <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\InGameMenu.h">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuWidget.h">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\MainMenu.cpp">
       <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuInterface.cpp">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\InGameMenu.cpp">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuWidget.cpp">
       <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
     </ClCompile>
   </ItemGroup>

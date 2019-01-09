@@ -507,11 +507,15 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\InGameMenu.cpp" />
     <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\MainMenu.cpp" />
     <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuInterface.cpp" />
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuWidget.cpp" />
     <ClCompile Include="..\..\Source\PuzzlePlatforms\MovingPlatform.cpp" />
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\InGameMenu.h" />
     <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\MainMenu.h" />
     <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuInterface.h" />
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuWidget.h" />
     <ClInclude Include="..\..\Source\PuzzlePlatforms\MovingPlatform.h" />
     <ClCompile Include="..\..\Source\PuzzlePlatforms\PlatformTrigger.cpp" />
     <ClInclude Include="..\..\Source\PuzzlePlatforms\PlatformTrigger.h" />

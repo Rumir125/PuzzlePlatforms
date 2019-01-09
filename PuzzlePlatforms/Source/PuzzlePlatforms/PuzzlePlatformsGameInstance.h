@@ -20,15 +20,22 @@ class PUZZLEPLATFORMS_API UPuzzlePlatformsGameInstance : public UGameInstance, p
 		virtual void Init();
 		UFUNCTION(Exec)
 		void LoadMenu();
+		UFUNCTION(Exec)
+		void InGameLoadMenu();
 
 		UFUNCTION(Exec)
-		void Host();
+		void Host() override;
 		UFUNCTION(Exec)
-		void Join(const FString& Address);
+		void Join(const FString& Address) override;
 
+
+		virtual void LoadMainMenu() override;
 
 private:
 		TSubclassOf<class UUserWidget> MenuClass;
+		TSubclassOf<class UUserWidget> InGameMenuClass;
 
 		class UMainMenu* Menu;
+	
+		
 };

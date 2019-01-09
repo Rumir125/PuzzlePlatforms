@@ -30,6 +30,8 @@ protected:
 	UPROPERTY(meta = (BindWidget))
 	class UButton* ConfirmJoinMenu;
 	UPROPERTY(meta = (BindWidget))
+	class UButton* Exit;
+	UPROPERTY(meta = (BindWidget))
 	class UWidgetSwitcher* MenuSwitcher;
 	UPROPERTY(meta = (BindWidget))
 	class UWidget* JoinMenu;
@@ -47,6 +49,7 @@ protected:
 	void OpenJoinMenu();
 	UFUNCTION()
 	void OpenMainMenu();
-
+	UFUNCTION()
+	void ExitGame();
 
 };

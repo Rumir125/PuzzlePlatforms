@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PuzzlePlatforms.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1A089BAB-A56E-4842-8767-577DAF5C2402}</UniqueIdentifier>
+      <UniqueIdentifier>{9EC77EA4-DD57-4554-BD3D-B3B612ADCDE7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PuzzlePlatforms.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BE315DD4-7FAF-4F3B-994B-281FD0BD2178}</UniqueIdentifier>
+      <UniqueIdentifier>{8E844C1D-6B0A-4D97-8473-F38ADB0D2CF1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PuzzlePlatforms">
-      <UniqueIdentifier>{EEA0E632-2A84-4AA8-81AE-17B8AEE023E5}</UniqueIdentifier>
+      <UniqueIdentifier>{A1633F02-3756-4BE8-A9C2-982DEB3B7F9F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PuzzlePlatforms\MovingPlatform.cpp">
       <Filter>Source\PuzzlePlatforms</Filter>
@@ -72,7 +72,7 @@
       <Filter>Source\PuzzlePlatforms</Filter>
     </ClInclude>
     <Filter Include="Source\PuzzlePlatforms\MenuSystem">
-      <UniqueIdentifier>{6D007118-BAB2-47B1-9729-6DCB8687DB12}</UniqueIdentifier>
+      <UniqueIdentifier>{B38A7FE8-DAE1-4803-A7D7-4DDFFF7C679A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\InGameMenu.cpp">
       <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
@@ -98,5 +98,15 @@
     <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuWidget.h">
       <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\ServerRow.h">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\ServerRow.cpp">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

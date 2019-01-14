@@ -26,6 +26,7 @@ void UMainMenu::SetServerList(TArray<FString> ServerNames)
 	if (ensure(World == nullptr))return;
 
 	ServerList->ClearChildren();
+	uint32 i = 0;
 
 	for (const FString& ServerName : ServerNames)
 	{
@@ -34,10 +35,12 @@ void UMainMenu::SetServerList(TArray<FString> ServerNames)
 		if (!ensure(Row != nullptr)) return;
 
 		Row->ServerName->SetText(FText::FromString(ServerName));
+		Row->Setup(this, i);
+		++i;
 
 		ServerList->AddChild(Row);
 
-		UE_LOG(LogTemp, Warning, TEXT("Join a server, please!"));
+		
 	}
 }
 
@@ -70,16 +73,23 @@ void UMainMenu::HostServer()
 		UE_LOG(LogTemp, Warning, TEXT("Host a server, please!"));
 	}
 }
+void UMainMenu::SelectIndex(uint32 Index)
+{
+	SelectedIndex = Index;
+}
 
 void UMainMenu::JoinServer()
 {
-	if (MenuInterface != nullptr)
+	if (SelectedIndex.IsSet() && MenuInterface != nullptr)
 	{
-		//const FString &Address = IPAddressField->Text.ToString();
-		//if (ensure(IPAddressField == nullptr)) return;
-		MenuInterface->Join("");
-		
+		MenuInterface->Join(SelectedIndex.GetValue());
+		UE_LOG(LogTemp, Warning, TEXT("Selected index %d"), SelectedIndex.GetValue());
 	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Selected index not set"));
+	}
+
 }
 
 void UMainMenu::OpenJoinMenu()

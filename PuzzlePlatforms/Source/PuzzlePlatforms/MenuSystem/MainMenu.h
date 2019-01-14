@@ -20,6 +20,8 @@ public:
 
 	void SetServerList(TArray<FString> ServerName);
 
+	void SelectIndex(uint32 Index);
+
 protected:
 	virtual bool Initialize() override;
 private:
@@ -55,5 +57,7 @@ private:
 	void OpenMainMenu();
 	UFUNCTION()
 	void ExitGame();
+
+	TOptional<uint32> SelectedIndex;
 
 };

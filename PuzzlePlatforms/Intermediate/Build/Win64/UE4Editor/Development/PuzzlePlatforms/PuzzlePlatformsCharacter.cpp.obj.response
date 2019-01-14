@@ -415,6 +415,11 @@
 /I "C:\Users\Rus\Documents\Unreal Projects\PuzzlePlatform\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms"
 /I "C:\Users\Rus\Documents\Unreal Projects\PuzzlePlatform\PuzzlePlatforms\Source"
 /I "C:\Users\Rus\Documents\Unreal Projects\PuzzlePlatform\PuzzlePlatforms\Source\PuzzlePlatforms"
+/I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UE4Editor\Inc\OnlineSubsystem
+/I ..\Plugins\Online\OnlineSubsystem
+/I ..\Plugins\Online\OnlineSubsystem\Source
+/I ..\Plugins\Online\OnlineSubsystem\Source\Public
+/I ..\Plugins\Online\OnlineSubsystem\Source\Public\Interfaces
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"

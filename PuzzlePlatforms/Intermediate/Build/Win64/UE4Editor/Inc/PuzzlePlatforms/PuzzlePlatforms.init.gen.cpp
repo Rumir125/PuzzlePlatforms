@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodePuzzlePlatforms_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/PuzzlePlatforms",
 				PKG_CompiledIn | 0x00000000,
-				0xBC17816B,
-				0xC9D4F0EF,
+				0x08231DEF,
+				0x8ED9D190,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

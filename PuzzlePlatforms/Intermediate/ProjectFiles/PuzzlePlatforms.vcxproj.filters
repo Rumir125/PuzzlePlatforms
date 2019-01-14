@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PuzzlePlatforms.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0651826C-0541-41CB-BD1F-35AC9EB821DE}</UniqueIdentifier>
+      <UniqueIdentifier>{1A089BAB-A56E-4842-8767-577DAF5C2402}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PuzzlePlatforms.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0D98F9AC-076D-43FB-81C3-D70490A23803}</UniqueIdentifier>
+      <UniqueIdentifier>{BE315DD4-7FAF-4F3B-994B-281FD0BD2178}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PuzzlePlatforms">
-      <UniqueIdentifier>{E5D35D9E-B16E-4691-8034-BCA9D1D0844A}</UniqueIdentifier>
+      <UniqueIdentifier>{EEA0E632-2A84-4AA8-81AE-17B8AEE023E5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PuzzlePlatforms\MovingPlatform.cpp">
       <Filter>Source\PuzzlePlatforms</Filter>
@@ -71,38 +71,32 @@
     <ClInclude Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformsGameMode.h">
       <Filter>Source\PuzzlePlatforms</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="Source\PuzzlePlatforms\MenuSystem">
-      <UniqueIdentifier>{065668a7-10ff-4cb4-9b7b-27977da8a168}</UniqueIdentifier>
+      <UniqueIdentifier>{6D007118-BAB2-47B1-9729-6DCB8687DB12}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\MainMenu.h">
-      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuInterface.h">
-      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\InGameMenu.h">
-      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuWidget.h">
-      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\MainMenu.cpp">
-      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuInterface.cpp">
-      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\InGameMenu.cpp">
       <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\InGameMenu.h">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\MainMenu.cpp">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\MainMenu.h">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuInterface.cpp">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuInterface.h">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuWidget.cpp">
       <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\MenuSystem\MenuWidget.h">
+      <Filter>Source\PuzzlePlatforms\MenuSystem</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

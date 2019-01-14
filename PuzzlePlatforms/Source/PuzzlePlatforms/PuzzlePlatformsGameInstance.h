@@ -19,7 +19,7 @@ class PUZZLEPLATFORMS_API UPuzzlePlatformsGameInstance : public UGameInstance, p
 
 		virtual void Init();
 		UFUNCTION(Exec)
-		void LoadMenu();
+		void LoadMenuWidget();
 		UFUNCTION(Exec)
 		void InGameLoadMenu();
 

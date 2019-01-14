@@ -31,6 +31,7 @@ class PUZZLEPLATFORMS_API UPuzzlePlatformsGameInstance : public UGameInstance, p
 
 
 		virtual void LoadMainMenu() override;
+		virtual void RefreshServerList() override;
 
 private:
 		TSubclassOf<class UUserWidget> MenuClass;

@@ -18,11 +18,11 @@
 	"Launch": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-PuzzlePlatforms-9474.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-PuzzlePlatforms-4571.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-PuzzlePlatforms-9474.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-PuzzlePlatforms-4571.pdb",
 			"Type": "SymbolFile"
 		},
 		{

@@ -18,6 +18,8 @@ public:
 
 	UMainMenu(const FObjectInitializer& ObjectInitializer);
 
+	void SetServerList(TArray<FString> ServerName);
+
 protected:
 	virtual bool Initialize() override;
 private:
